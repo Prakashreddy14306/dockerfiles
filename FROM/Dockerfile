@@ -1,3 +1,3 @@
 FROM almalinux:9
-RUN apt install update && apt install nginx
+RUN dnf install nginx -y
 ENV User=Prakash
